@@ -1,0 +1,36 @@
+{
+  "name": "aiusto",
+  "version": "1.0.0",
+  "description": "Unicode-aware JS string splitting",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . && mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CarrieMorar/aiusto.git"
+  },
+  "keywords": [
+    "odit",
+    "quam",
+    "occaecati",
+    "split string"
+  ],
+  "author": "ReinholdMacejkovic",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "eslint": "^3.3.1",
+    "eslint-config-standard": "^5.3.1",
+    "eslint-plugin-mocha": "^4.3.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.0",
+    "mocha": "^3.0.2",
+    "should": "^11.1.0"
+  }
+}
